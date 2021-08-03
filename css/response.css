@@ -1,0 +1,166 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .banner-form .card {
+    width: 232px;}
+}
+.banner {
+  
+    height: 80vh;
+}
+.tab-content h3 {
+    
+    width: 74%;
+    margin-left: 52px;
+}
+.tab-content p {
+    width: 74%;
+    margin-left: 52px;
+}
+.tab-content button {
+   margin-left: 52px;
+       width: 39%;
+
+}
+.towsn h3 {
+    padding-top: 51px;
+    
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  .banner-form .card {
+    width: 282px;}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+  .banner {
+  
+    height: 204vh;
+}
+.fo-bar2 {
+   
+    margin: 3% 42% 3% 40%;
+}
+.bnbutton2 {
+    
+    margin: 2% 0% 0% 35.5%;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+.banner {
+  
+    height: 150vh;
+    text-align: center;
+}
+.da{
+      margin-left:  152px;
+}
+.banner h1 {
+    
+    width: 100%;
+}
+.banner h5 {
+    
+    width: 100%;
+}
+.banner-form .card {
+    width: 332px;
+    margin-top: -442px;
+}
+.towsn{
+  text-align: center;
+}
+
+.feature{
+  text-align: center;
+}
+
+.feature-tab{
+display: flex;
+}
+.bor {
+    
+    margin-left: 172px;
+}
+
+
+
+
+
+
+
+.forth{
+  text-align: center;
+}
+.fo-bar{
+  margin-left: 161px;
+}
+
+
+.fiveth{
+  text-align: center;
+}
+
+
+.fo-bar2 {
+   
+    margin: 3% 42% 3% 38%;
+}
+.bnbutton2 {
+    
+    margin: 2% 0% 0% 32.5%;
+}
+}
